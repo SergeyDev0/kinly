@@ -1,0 +1,1 @@
+export type VoiceUploadStateProps = "upload" | "record" | "verify";

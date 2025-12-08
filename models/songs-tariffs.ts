@@ -1,0 +1,70 @@
+export const tariffs = [
+  {
+    title: "Демо",
+    features: ["пробная песня на 1 мин", "водяной знак"],
+    price: "0₽",
+    gradient: false,
+    path: "/songs/create?type=demo",
+  },
+  {
+    title: "Базовый",
+    features: [
+      "1 песня",
+      "без изменений",
+    ],
+    price: "990₽",
+    gradient: false,
+    path: "/songs/create?type=base",
+  },
+  {
+    title: "Базовый +",
+    features: [
+      "1 песня",
+      "изменение текста",
+      "загрузка своего голоса",
+    ],
+    price: "1490₽",
+    gradient: true,
+    selected: true,
+    path: "/songs/create?type=base-plus",
+  },
+	{
+    title: "Оптимальный",
+    features: [
+      "1 песня",
+      "изменение текста",
+      "загрузка своего голоса",
+			"до 5 перегенераций",
+    ],
+    price: "2990₽",
+    gradient: false,
+    path: "/songs/create?type=optimal",
+  },
+	{
+    title: "Индивидуальный",
+    features: [
+      "1 песня",
+      "изменение текста",
+      "загрузка своего голоса",
+			"до 10 перегенераций",
+			"личный менеджер",
+    ],
+    price: "4990₽",
+    gradient: false,
+    path: "/songs/create?type=individual",
+  },
+	{
+    title: "PRO",
+    features: [
+      "1 песня",
+      "изменение текста",
+      "загрузка своего голоса",
+			"до 10 перегенераций",
+			"личный менеджер",
+			"создание своего альбома",
+    ],
+    price: "от 14990₽",
+    gradient: false,
+    path: "/songs/create?type=pro",
+  },
+];

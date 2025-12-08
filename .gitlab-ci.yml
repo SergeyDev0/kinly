@@ -1,0 +1,41 @@
+
+default:
+  image: node:22.21.1-alpine
+  cache:
+    key: "$CI_COMMIT_REF_SLUG"
+    paths:
+      - node_modules/
+  before_script:
+    - node -v
+    - npm -v
+    - npm ci
+    
+stages:
+  - build
+  - start
+build:
+  stage: build
+  tags:
+    - dev_linux
+  script:
+    - npm run build 
+    - fuser -k 3000/tcp || true
+    - npm run start
+  only:
+    - merge_requests
+    - main
+#start:
+ # stage: start
+  #tags:
+   # - dev_linux
+  #script:
+   # - fuser -k 3000/tcp || true
+   # - npm run start
+ # artifacts:
+  #  paths:
+   #   - .next
+    #  - public
+    #expire_in: 1 week
+  #only:
+   # - merge_requests
+    #- main

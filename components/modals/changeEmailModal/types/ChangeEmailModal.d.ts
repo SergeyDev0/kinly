@@ -1,0 +1,1 @@
+export type stepModalProps = "password" | "email" | "checkEmail";

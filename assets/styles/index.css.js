@@ -1,0 +1,10 @@
+export const blue = "#EBF3FF";
+export const accentBlue = "#507CFF";
+export const accentRed = "#FB7579";
+export const red = "#FF383C";
+export const darkGray = "#465067";
+export const textPrimary = "#1A232E";
+export const violetGradient = "linear-gradient(90deg, #507CFF 0%, #5E48DC 100%)";
+export const darkBlue = "#B9CBFF";
+export const lightBlue = "linear-gradient(90deg, #507CFF 0%, #5E48DC 100%)";
+export const gray = "#A8B0C0";

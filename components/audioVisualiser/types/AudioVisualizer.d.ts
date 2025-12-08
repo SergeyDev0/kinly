@@ -1,0 +1,1 @@
+export type AudioVisualizerProps = { src: string };

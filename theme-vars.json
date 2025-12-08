@@ -1,0 +1,13 @@
+{
+  "--blue": "#EBF3FF",
+  "--accent-blue": "#507CFF",
+  "--accent-red": "#FB7579",
+  "--red": "#FF383C",
+  "--dark-gray": "#465067",
+  "--text-primary": "#1A232E",
+  "--violet-gradient": "linear-gradient(90deg, #507CFF 0%, #5E48DC 100%)",
+  "--dark-blue": "#B9CBFF",
+	"--light-blue": "linear-gradient(90deg, #507CFF 0%, #5E48DC 100%)",
+	"--gray": "#A8B0C0"
+	
+}
